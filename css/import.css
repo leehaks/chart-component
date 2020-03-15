@@ -1,0 +1,8 @@
+@import url("reset.css"); 
+@import url("component.css"); 
+
+@font-face {
+    font-family: Opensans-regular; 
+    font-style: normal;
+    src: url(../font/OpenSans-Regular.ttf) format('truetype');
+}

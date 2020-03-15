@@ -1,0 +1,55 @@
+#wrap { 
+    background: #333; 
+    width: 800px; 
+    height: 350px; 
+    position: relative;
+    padding: 2em; 
+    box-shadow: 0 0 3px rgba(0,0,0,0.75); 
+    border-radius: 1rem;
+    color: #fff; 
+}
+
+.out-layer {
+    position: absolute;
+    top: -2.75rem; 
+    right: 0; 
+}
+
+.chart-container { height: 100%; }
+
+.btn-group { 
+    display: flex; 
+    display: -ms-flexbox; 
+    align-items: center; 
+    -ms-flex-align: center; 
+}
+
+.btn-group .btn { margin-left: .65rem; }
+.btn-group .btn:first-of-type { margin-left: 0; }
+
+.btn { 
+    background: transparent; 
+    min-width: 5rem; 
+    width: auto; 
+    max-width: 10rem; 
+    height: 2rem; 
+    line-height: 1.8rem; 
+    display: inline-block;  
+    border: 1px solid transparent; 
+    overflow: hidden; 
+    white-space: nowrap; 
+    text-overflow: ellipsis; 
+    vertical-align: middle; 
+    outline: none; 
+    font-size: .8rem; 
+    font-weight: 700;
+    color: #ccc; 
+    cursor: pointer;
+    transition: color .35s ease-in-out; 
+}
+
+.btn:hover { color: #fff; }
+
+/* Chart.js */
+
+
